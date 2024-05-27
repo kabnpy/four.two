@@ -1,0 +1,23 @@
+I need you to create a set of flashcards for me. I have included both the list of words and specific formatting instructions and examples below. Use those to create the set of flashcards. Please note that the front subheading is optional. It is intended to be used for something like the date of an event or something like that. If that does not apply, do not include it at all. The back heading should be a short summary (only a few words) of the definition.
+
+Formatting:
+Use JSON formatting in the following format:
+{
+	title: "",
+  slug: "",
+	description: "",
+	cards: [
+		{
+			front: {
+                heading: "",
+                subheading: "",
+            },
+			back: {
+				heading: "",
+				description: ""
+			}
+		}
+	]
+}
+
+Words:
